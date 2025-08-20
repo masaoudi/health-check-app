@@ -5,6 +5,8 @@ VisualStudioVersion = 17.12.35527.113 d17.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthCheckApp.Web", "HealthCheckApp.Web\HealthCheckApp.Web.csproj", "{4E80682B-412D-4D48-91D7-0642E93D440D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthCheckApp.Worker", "HealthCheckApp.Worker\HealthCheckApp.Worker.csproj", "{162234EC-1968-41C3-92ED-493BC543EEFB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{4E80682B-412D-4D48-91D7-0642E93D440D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4E80682B-412D-4D48-91D7-0642E93D440D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4E80682B-412D-4D48-91D7-0642E93D440D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{162234EC-1968-41C3-92ED-493BC543EEFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{162234EC-1968-41C3-92ED-493BC543EEFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{162234EC-1968-41C3-92ED-493BC543EEFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{162234EC-1968-41C3-92ED-493BC543EEFB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
